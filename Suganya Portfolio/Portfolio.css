@@ -1,12 +1,36 @@
 body {
-  height: 100%;
+  height: 100vh;
+  width: 100vw;
   background-color: rgb(235, 235, 51);
   font-family:Georgia, 'Times New Roman', Times, serif;
 }
 .nav{
-    background-color: rgb(214, 28, 28);
+    background-color: rgb(213, 196, 11);
+    padding-top: 6px;
+  
 }
+.navbar{
+  width: 100vw;
+  
+}
+.nav-item{
+  color: rgb(33, 227, 121);
+}
+.d-flex{
+  gap: 20px;}
 
+  .card{
+  border-radius: 15px; /* Rounded corners */ 
+  box-shadow: 5px 5px 15px rgba(185, 14, 14, 0.3); 
+}
+.view{
+  gap: 20px;
+}
+.card:hover{
+  background-color: #2884e0; 
+      transform: scale(1.05); 
+      transition: all 0.3s ease-in-out;
+}
 .container {
   gap: 60px;
 }
@@ -23,4 +47,7 @@ button:hover{
 .what img{
     height: 400px;
 }
-
+.button Skills{
+  padding: 20px;
+  
+}

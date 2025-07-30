@@ -1,0 +1,26 @@
+body {
+  height: 100%;
+  background-color: rgb(235, 235, 51);
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.nav{
+    background-color: rgb(214, 28, 28);
+}
+
+.container {
+  gap: 60px;
+}
+
+button:hover{
+    background-color: rgb(48, 230, 230);
+    border-radius: 20px;
+}
+.what{
+    height: 400px;
+    color: aqua;
+    
+}
+.what img{
+    height: 400px;
+}
+
